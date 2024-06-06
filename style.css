@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(90deg, #4b6cb7, #182848);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#main-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#game-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#score, #timer {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#word {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #f39c12;
+}
+
+input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+button, select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #2980b9;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover, select:hover {
+    background-color: #1abc9c;
+}
+
+button:disabled {
+    background-color: #cccccc;
+}
+
+#highscore-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#highscore-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#highscore-table th, #highscore-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#highscore-table th {
+    background-color: #2980b9;
+    color: white;
+}

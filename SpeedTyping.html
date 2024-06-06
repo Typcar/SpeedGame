@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Typing Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Speed Typing Challenge</h1>
+        <div id="game-container">
+            <div id="score">Score: 0</div>
+            <div id="word"></div>
+            <div id="timer">Time: 60</div>
+            <input type="text" id="input" autofocus disabled>
+            <div id="controls">
+                <select id="difficulty">
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                    <option value="extreme">Extreme</option>
+                </select>
+                <button id="start-button">Start Game</button>
+                <button id="end-button" disabled>End Game</button>
+            </div>
+        </div>
+        <div id="highscore-container">
+            <h2>Highscores</h2>
+            <table id="highscore-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Highscores будут добавлены здесь -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
